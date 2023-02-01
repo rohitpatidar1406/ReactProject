@@ -2,6 +2,7 @@ import ExpenseItem from './ExpenseItem';
 import './Expenses.css';
 function Expenses(props)
 {
+  const res="Rohit patidar";
     return (<div>
         <ExpenseItem title={props.items[0].title}
                    amount={props.items[0].amount}
